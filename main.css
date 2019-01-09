@@ -14,7 +14,9 @@ body {
     padding: 30px;
 }
 
-.outputText {
+.output {
+    padding: 20px 20px;
+    margin: 50px 50px;
     border: 1px dashed #ccc
 }
 
@@ -24,8 +26,9 @@ button:hover {
 }
 
 .outputText {
-    padding: 20px 50px;
-    margin: 50px 50px;
+    padding: none;
+    margin: none;
+    display: inline-block;
 }
 
 .blinkCursor {
