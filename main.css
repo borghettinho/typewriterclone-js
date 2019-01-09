@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.title {
+    padding: 50px;
+}
+
+.app {
+    padding: 30px;
+}
+
+.outputText {
+    border: 1px dashed #ccc
+}
+
+button:hover {
+    outline: none;
+    cursor: pointer
+}
+
+.outputText {
+    padding: 20px 50px;
+    margin: 50px 50px;
+}
+
+.blinkCursor {
+    animation: 1s blink step-end infinite;
+}
+@keyframes blink {
+    from, to {
+        color: transparent;
+    }50%{
+        color: black;
+    }
+}
