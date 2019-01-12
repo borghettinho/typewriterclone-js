@@ -9,6 +9,5 @@ const changeHandler = () => {
         setTimeout(() => {
             outputText.textContent += obj;
         }, 150 * (index));
-    });
-    
+    });   
 }
